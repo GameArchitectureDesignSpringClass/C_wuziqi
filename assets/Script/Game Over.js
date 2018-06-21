@@ -17,7 +17,12 @@ cc.Class({
     GameOver: function (){
         cc.director.end();
     },
-
+    b2:function() {
+        cc.director.loadScene("IN")
+    },
+    b3:function() {
+        cc.director.loadScene("Menu")
+    },
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {},
